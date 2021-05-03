@@ -12,6 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
+
 public class Faculdade {
 
 	//Atributos
@@ -50,7 +51,23 @@ public class Faculdade {
 	public void carregarDadosArquivo(String nomeArquivoEstudantes, String nomeArquivoDisciplinas,
 			String nomeArquivoMatriculas) {
 		
-		
+		try {
+				BufferedReader lerEstudantes = new BufferedReader(new FileReader(nomeArquivoEstudantes));
+				BufferedReader lerDisciplinas = new BufferedReader(new FileReader(nomeArquivoDisciplinas));
+				BufferedReader lerMmatriculas = new BufferedReader(new FileReader(nomeArquivoMatriculas));
+	
+				String linha = "";
+				
+				while((linha = lerEstudantes.readLine()) != null){
+					String[] dadosAlunos = linha.split(":");
+					long id = Long.parseLong(dadosAlunos[0]);
+					String nome = dadosAlunos[1];
+					String email = dadosAlunos[2];
+					Estudantes estudantes = new Estudantes(id, nome, email);
+				}
+		}catch (IOException ex){
+            Logger.getLogger(Faculdade.class.getName()).log(Level.SEVERE, null, ex);
+		}
 		
 	}
 	

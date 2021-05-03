@@ -1,7 +1,0 @@
-96086118:Estrutura de Dados
-96086118:Programacaoo Orientada a Objetos
-96086118:Sistemas Operacionais
-24802000:Programacaoo Orientada a Objetos
-24802000:Estrutura de Dados
-12491472:Programacaoo Orientada a Objetos
-12491472:Sistemas Operacionais

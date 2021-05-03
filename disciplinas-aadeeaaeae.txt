@@ -1,3 +1,0 @@
-Estrutura de Dados:80
-Programacaoo Orientada a Objetos:40
-Sistemas Operacionais:80

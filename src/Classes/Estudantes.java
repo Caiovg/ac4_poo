@@ -37,7 +37,7 @@ public class Estudantes {
 		this.email_estudante = email_estudante;
 	}
 	
-	public void Estudante(long id, String nome, String email) {
+	public Estudantes(long id, String nome, String email) {
 		
 		this.id_estudante = id;
 		this.nome_estudante = nome;

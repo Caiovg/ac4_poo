@@ -1,7 +1,0 @@
-08620000:Estrutura de Dados
-08620000:Programacaoo Orientada a Objetos
-08620000:Sistemas Operacionais
-18040484:Programacaoo Orientada a Objetos
-18040484:Estrutura de Dados
-98244908:Programacaoo Orientada a Objetos
-98244908:Sistemas Operacionais

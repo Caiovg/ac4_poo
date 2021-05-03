@@ -1,7 +1,0 @@
-18401014:Estrutura de Dados
-18401014:Programacaoo Orientada a Objetos
-18401014:Sistemas Operacionais
-45015228:Programacaoo Orientada a Objetos
-45015228:Estrutura de Dados
-87987828:Programacaoo Orientada a Objetos
-87987828:Sistemas Operacionais
