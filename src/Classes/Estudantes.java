@@ -38,7 +38,6 @@ public class Estudantes {
 	}
 	
 	public Estudantes(long id, String nome, String email) {
-		
 		this.id_estudante = id;
 		this.nome_estudante = nome;
 		this.email_estudante = email;
@@ -56,5 +55,10 @@ public class Estudantes {
 	
 	public void addMatricula(Matricula matricula) {
 		this.matriculas.add(matricula);        
-	} 
+	}
+	
+	@Override
+	public String toString() {
+		return "Estudante: "+nome_estudante+" id: "+id_estudante+" email: "+email_estudante;
+	}
 }
