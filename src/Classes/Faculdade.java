@@ -112,8 +112,4 @@ public class Faculdade {
 		}
 		
 	}
-	
-	
-	
-
 }
